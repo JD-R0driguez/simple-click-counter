@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    border-radius: 5px;
+    background-color: #146C94;
+    color:#F6F1F1;
+
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+#counter {
+    font-size: 150px;
+    padding: 30px;
+}
