@@ -19,4 +19,35 @@
 #counter {
     font-size: 150px;
     padding: 30px;
+    color: #072736;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.button {
+    flex:1;
+    height: 35px; 
+    background-color: #146C94;
+    color: #F6F1F1;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    flex-shrink: 0;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #072736;
+    color: #F6F1F1;
+    border-radius: 5px;
+    padding: 20px;
 }
