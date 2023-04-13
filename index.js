@@ -11,13 +11,19 @@ let counter = 0;
 
 function increase(){
     counter += 1;
+    document.getElementById("counter").innerHTML = counter;
 }
 
 function decrease(){
     counter -= 1;
+    document.getElementById("counter").innerHTML = counter;
 }
 
 function reset(){
     counter = 0;
+    document.getElementById("counter").innerHTML = counter;
 }
 
+document.getElementById("increase").onclick = increase;
+document.getElementById("reset").onclick = reset;
+document.getElementById("decrease").onclick = decrease;
